@@ -8,10 +8,11 @@ export default {
     by: 'Par',
     deletePost: 'Supprimer le message',
     createNewPost: 'Créer un nouveau message',
-    authorName: 'Nom de l\'auteur',
-    postTitle: 'Titre de l\'article',
+    authorName: "Nom de l'auteur",
+    postTitle: "Titre de l'article",
     postContent: 'Contenu après',
     submit: 'Soumettre',
+    editPost: 'Modifier le message',
     comment: `user {name} {value, plural,
     	  =0 {does not have any comments}
     	  =1 {has # comment}
@@ -26,6 +27,6 @@ export default {
   		  =0 {does not have any comments}
   		  =1 {has # comment}
   		  other {has # comments}
-  		} as of {date} (in real app this would be translated to French)`,
-  },
+  		} as of {date} (in real app this would be translated to French)`
+  }
 };
