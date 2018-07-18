@@ -1,0 +1,27 @@
+.navigation {
+  background-color: #0984e3;
+  width: 100%;
+  padding: 15px;
+}
+
+.navigation ul {
+  max-width: 980px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation ul li {
+  margin-left: 30px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.navigation ul li a:hover {
+  color: #00cec9;
+}
